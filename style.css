@@ -68,22 +68,13 @@ h2 {
 }
 
 .services {
-  list-style: none;
   padding: 0;
   margin: 1rem 0;
 }
 
 .services li {
-  margin: 0.5rem 0;
-  padding-left: 1rem;
+  margin: 0.5rem 0.5rem;
   position: relative;
-}
-
-.services li::before {
-  content: "🍴";
-  position: absolute;
-  left: 0;
-  color: green;
 }
 
 .cta {
